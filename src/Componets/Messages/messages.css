@@ -1,0 +1,11 @@
+.messages {
+    padding: 5% 0;
+    overflow-y: auto;
+    background-color: #000;
+    flex: 1;
+    scrollbar-width: 0;
+  }
+
+  .messages::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Opera */
+  }

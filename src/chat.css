@@ -1,0 +1,36 @@
+.chat {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 500px;
+    height: 85vh;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .infobar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #a55fae;
+    padding: 15px;
+    color: white;
+  }
+
+
+.messages {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  background-color: #e5e5e5;
+  scrollbar-width: none;
+}
+
+.messages::-webkit-scrollbar {
+  display: none; 
+}
+  

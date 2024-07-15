@@ -1,0 +1,17 @@
+.infobar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2979FF;
+    border-radius: 4px 4px 0 0;
+    padding: 5px 10px;
+    color: white;
+  }
+  
+  .leftInnerContainer h3 {
+    margin: 0;
+  }
+  
+  .rightInnerContainer a {
+    color: white;
+    text-decoration: none;
+  }
