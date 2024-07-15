@@ -7,7 +7,7 @@ import { useLocation } from 'react-router-dom';
 import Messages from './Messages/Messages';
 import '../chat.css'
 
-const socket = io.connect("http://localhost:5000");
+const socket = io.connect("https://chatroom-backend-z3zk.onrender.com");
 
 function Chat() {
   const location = useLocation();
