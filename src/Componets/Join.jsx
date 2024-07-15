@@ -11,7 +11,7 @@ function Join() {
 
 
   return (
-    <div className=''>
+    <div className='join'>
       <h1>Join Room</h1>
       <form action="/" className=''>
         <div className='name'>

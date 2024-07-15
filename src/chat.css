@@ -12,6 +12,8 @@
     overflow: hidden;
   }
   
+ 
+  
   .infobar {
     display: flex;
     justify-content: space-between;
@@ -34,3 +36,13 @@
   display: none; 
 }
   
+
+@media screen and (max-width:768px) {
+  .chat{
+    /* padding: 30px; */
+    width: 80%;
+    }
+    h1{
+      font-size: 2rem;
+    }
+}

@@ -22,4 +22,10 @@
     width: 20%;
     cursor: pointer;
   }
+
+  @media screen and (max-width:768px) {
+    .sendButton{
+      width: 30%;
+    }
+  }
   
